@@ -2,12 +2,12 @@
 	"name": "Filly",
 	"tree": {
 		"$className": "Folder",
-		"$path": "src",
+		"$path": "./src",
 		"packages": {
-			"$path": "packages"
+			"$path": "../packages"
 		},
 		"assets": {
-			"$path": "assets"
+			"$path": "./assets"
 		}
 	}
 }

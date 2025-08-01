@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "name": "packages",
+            "path": "../packages"
+        }
+    ],
+    "settings": {
+        "luau-lsp.sourcemap.rojoProjectFile": "plugin.project.json",
+		"luau-lsp.types.robloxSecurityLevel": "PluginSecurity"
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "roblox plugin",
+                "command": "rojo build -p \"Filly.rbxm\" --watch plugin.project.json",
+                "type": "shell",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "group": "build",
+                "runOptions": {
+                    "runOn": "folderOpen",
+                    "instanceLimit": 1
+                }
+            }
+        ]
+    }
+}

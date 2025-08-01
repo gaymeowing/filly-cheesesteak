@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "name": "packages",
+            "path": "../packages"
+        }
+    ],
+    "settings": {
+		"luau-lsp.types.robloxSecurityLevel": "LocalUserSecurity",
+        "luau-lsp.sourcemap.rojoProjectFile": "lib.project.json"
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Filly",
+	"tree": {
+		"$className": "Folder",
+		"$path": "src",
+		"packages": {
+			"$path": "packages"
+		},
+		"assets": {
+			"$path": "assets"
+		}
+	}
+}
